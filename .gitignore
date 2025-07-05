@@ -1,0 +1,64 @@
+# 忽略 PyCharm 项目的配置文件
+.idea/
+*.iml
+
+# 忽略 Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 忽略虚拟环境（如 conda 或 venv）
+env/
+venv/
+.venv/
+.qbot_env/
+ENV/
+*.env
+*.conda
+*.egg-info/
+
+# Jupyter notebook 检查点
+.ipynb_checkpoints/
+
+# 忽略数据文件和日志文件
+*.log
+*.sqlite
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.h5
+*.db
+*.bak
+*.tmp
+
+# 忽略模型文件和大文件
+*.pkl
+*.joblib
+*.hdf5
+*.pt
+*.pth
+*.tflite
+*.onnx
+
+# 忽略输出结果或可视化图像
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+*.eps
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略 pytest 缓存
+.pytest_cache/
+
+# 忽略 mypy 类型检查缓存
+.mypy_cache/
+
+# 忽略 VSCode 工作区设置（如你同时用 VSCode）
+.vscode/
+
